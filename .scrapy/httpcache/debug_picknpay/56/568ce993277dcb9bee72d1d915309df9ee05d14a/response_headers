@@ -1,0 +1,12 @@
+Content-Type: text/html
+Date: Thu, 27 Nov 2025 08:22:44 GMT
+Server: nginx/1.27.5
+Server-Timing: dtSInfo;desc="1"
+Strict-Transport-Security: max-age=3600
+Via: 1.1 f7ff593305b07d0fab168796c6020508.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 29hOWaGmXHNqzFYtffgklk3FFBzCXiC0t7r_j_0THegQvFgvBL2y0g==
+X-Amz-Cf-Pop: JNB51-P1
+X-Cache: Miss from cloudfront
+X-Oneagent-Js-Injection: true
+X-Powered-By: Express
+X-Ruxit-Js-Agent: true

@@ -1,0 +1,13 @@
+Content-Type: text/html
+Date: Thu, 27 Nov 2025 08:22:33 GMT
+Server: nginx/1.27.5
+Server-Timing: dtSInfo;desc="1"
+Set-Cookie: route=e940f2f0ad3ae09d004a58eb722d3d92; Path=/
+Strict-Transport-Security: max-age=3600
+Via: 1.1 df1b4543bab76b5c418408392779c838.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: UVQhGDOMAaF2VlgKAa9cPk_l9NuQKuXNyi5ESHbiVwqncHV-41nPxQ==
+X-Amz-Cf-Pop: JNB51-P1
+X-Cache: Miss from cloudfront
+X-Oneagent-Js-Injection: true
+X-Powered-By: Express
+X-Ruxit-Js-Agent: true

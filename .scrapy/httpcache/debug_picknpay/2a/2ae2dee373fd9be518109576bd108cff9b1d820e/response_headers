@@ -1,9 +1,9 @@
 Content-Length: 435
 Content-Type: text/plain;charset=UTF-8
-Date: Thu, 27 Nov 2025 08:37:43 GMT
+Date: Thu, 27 Nov 2025 08:22:14 GMT
 Server: nginx/1.27.5
 Set-Cookie: route=1456022f6ce231c7d1fbbd66bbe424fe; Path=/
-Set-Cookie: dtCookie=v_4_srv_6_sn_53DA2103ABCD4C0F998C09AEBD0739FA_perc_100000_ol_0_mul_1_app-3A2ce7406a2949d129_0; Path=/; Domain=.pnp.co.za; secure
+Set-Cookie: dtCookie=v_4_srv_9_sn_40AFAACC5A2005BD98FAA2884178190D_perc_100000_ol_0_mul_1_app-3A2ce7406a2949d129_0; Path=/; Domain=.pnp.co.za; secure
 X-Oneagent-Js-Injection: true
 X-Frame-Options: SAMEORIGIN
 Vary: Origin
@@ -17,6 +17,6 @@ Strict-Transport-Security: max-age=3600
 X-Xss-Protection: 1; mode=block
 X-Content-Type-Options: nosniff
 X-Cache: Miss from cloudfront
-Via: 1.1 7d65068ed3e4a31e171838cea2010e56.cloudfront.net (CloudFront)
+Via: 1.1 a45a04b498bba77eb10afa9b05cf4eaa.cloudfront.net (CloudFront)
 X-Amz-Cf-Pop: JNB51-P1
-X-Amz-Cf-Id: S5PJpKBnd_F4Q9Xh2IaOcSY8Mvofe4YvrnL8R1zil_ovz0EHUfDlLA==
+X-Amz-Cf-Id: 688s4ofRB4haTDU82UOHftWT-qlaSe2ksZcb6PwMjQkN0R67TBB0Cw==

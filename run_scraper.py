@@ -30,7 +30,9 @@ def main():
     print("   - Concurrent requests: 1")
     print("   - Respecting robots.txt")
     print("   - Using Playwright for JavaScript rendering")
-    print("   - Using actual category URLs from sitemap")
+    print("   - 7 main categories")
+    print("   - 2 products per category")
+    print("   - Total expected: 14 products")
     
     # Create data directory if it doesn't exist
     os.makedirs('data', exist_ok=True)
@@ -44,6 +46,7 @@ def main():
     process.start()
     
     print("✅ Scraping completed!")
+    print("📊 Check data/products.json for your results")
 
 if __name__ == "__main__":
     main()

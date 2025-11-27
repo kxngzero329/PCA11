@@ -1,1225 +1,253 @@
 [
 {
-  "name": "Stork Country 40% Fat Spread 1kg",
-  "price": "R44.99",
-  "original_price": "R59.99",
-  "product_url": "https://www.pnp.co.za/stork-country-40-fat-spread-1kg/p/000000000000103448_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h1f/hf3/11127110664222/silo-product-image-v2-16Mar2023-185331-6009710390177-Straight_on-108988-12399_400Wx400H",
-  "product_id": "000000000000103448_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.515926+00:00",
+  "name": "Clover UHT Full Cream Long Life Milk 6 x 1L",
+  "price": "R 99.99",
+  "original_price": "R116.99",
+  "product_url": "https://www.pnp.co.za/clover-uht-full-cream-long-life-milk-6-x-1l/p/000000000000538315_CS",
+  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h4e/hb5/11491489710110/silo-product-image-v2-26Sep2024-180138-6001299015205-Straight_on-251327-185_400Wx400H",
+  "product_id": "000000000000538315_CS",
+  "main_category": "Groceries",
+  "sub_category": "Food Cupboard",
+  "category_url": "https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:category:food-cupboard-423144840",
+  "scraped_at": "2025-11-27T08:37:44.283575+00:00",
   "data_attributes": {
-    "item_id": "000000000000103448_EA",
-    "item_name": "Stork Country 40% Fat Spread 1kg",
-    "item_price": "44.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Rama 70% Fat Spread Original 500g",
-  "price": "R36.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/rama-70-fat-spread-original-500g/p/000000000000249286_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/hb6/h4b/11620496310302/silo-product-image-v2-26Mar2025-180124-6009710390184-Straight_on-301549-296_400Wx400H",
-  "product_id": "000000000000249286_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.516926+00:00",
-  "data_attributes": {
-    "item_id": "000000000000249286_EA",
-    "item_name": "Rama 70% Fat Spread Original 500g",
-    "item_price": "36.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Mooi River Salted Butter 500g",
-  "price": "R99.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/mooi-river-salted-butter-500g/p/000000000000221437_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h37/h4d/11602812534814/silo-product-image-v2-11Mar2025-180119-6001299810121-Straight_on-296881-207_400Wx400H",
-  "product_id": "000000000000221437_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.517925+00:00",
-  "data_attributes": {
-    "item_id": "000000000000221437_EA",
-    "item_name": "Mooi River Salted Butter 500g",
+    "item_id": "000000000000538315_CS",
+    "item_name": "Clover UHT Full Cream Long Life Milk 6 x 1L",
     "item_price": "99.99",
     "strategy_id": null
   }
 },
 {
-  "name": "Flora Regular 50% Fat Spread 1kg",
-  "price": "R69.99",
+  "name": "Koo Baked Beans In Tomato Sauce 400g",
+  "price": "R 16.99",
   "original_price": null,
-  "product_url": "https://www.pnp.co.za/flora-regular-50-fat-spread-1kg/p/000000000000348449_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h85/h86/11120788275230/silo-product-image-v2-16Mar2023-181104-6009710390429-Straight_on-116143-2179_400Wx400H",
-  "product_id": "000000000000348449_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.517925+00:00",
+  "product_url": "https://www.pnp.co.za/koo-baked-beans-in-tomato-sauce-400g/p/000000000000967788_EA",
+  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/hbd/hed/28366899544094/silo-product-image-v2-05Nov2025-180058-6009522310363-Straight_on-369674-1230_400Wx400H",
+  "product_id": "000000000000967788_EA",
+  "main_category": "Groceries",
+  "sub_category": "Food Cupboard",
+  "category_url": "https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:category:food-cupboard-423144840",
+  "scraped_at": "2025-11-27T08:37:44.285647+00:00",
   "data_attributes": {
-    "item_id": "000000000000348449_EA",
-    "item_name": "Flora Regular 50% Fat Spread 1kg",
-    "item_price": "69.99",
+    "item_id": "000000000000967788_EA",
+    "item_name": "Koo Baked Beans In Tomato Sauce 400g",
+    "item_price": "16.99",
     "strategy_id": null
   }
 },
 {
-  "name": "Butro Butter Spread 500g",
-  "price": "R99.99",
+  "name": "Raid Dual Purpose Odourless 300ml",
+  "price": "R 45.99",
   "original_price": null,
-  "product_url": "https://www.pnp.co.za/butro-butter-spread-500g/p/000000000000164880_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h25/hf0/11602814042142/silo-product-image-v2-11Mar2025-180119-6001299810312-Straight_on-296889-209_400Wx400H",
-  "product_id": "000000000000164880_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.518925+00:00",
+  "product_url": "https://www.pnp.co.za/raid-dual-purpose-odourless-300ml/p/000000000000133815_EA",
+  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h08/hde/11382743695390/silo-product-image-v2-12Mar2024-180124-6001298600174-Straight_on-213277-243_400Wx400H",
+  "product_id": "000000000000133815_EA",
+  "main_category": "Cleaning and Household",
+  "sub_category": "Household and Cleaning",
+  "category_url": "https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:category:household-and-cleaning-423144840",
+  "scraped_at": "2025-11-27T08:38:09.634643+00:00",
   "data_attributes": {
-    "item_id": "000000000000164880_EA",
-    "item_name": "Butro Butter Spread 500g",
-    "item_price": "99.99",
+    "item_id": "000000000000133815_EA",
+    "item_name": "Raid Dual Purpose Odourless 300ml",
+    "item_price": "45.99",
     "strategy_id": null
   }
 },
 {
-  "name": "Flora Light 40% Fat Spread 1kg",
-  "price": "R69.99",
+  "name": "PnP 2 Ply White Toilet Paper 18 Pack",
+  "price": "R 129.99",
   "original_price": null,
-  "product_url": "https://www.pnp.co.za/flora-light-40-fat-spread-1kg/p/000000000000204792_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/hf3/ha8/11120786341918/silo-product-image-v2-16Mar2023-181103-6009710390146-Straight_on-116131-2174_400Wx400H",
-  "product_id": "000000000000204792_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.519926+00:00",
+  "product_url": "https://www.pnp.co.za/pnp-2-ply-white-toilet-paper-18-pack/p/000000000000359011_EA",
+  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h63/hde/11470176157726/silo-product-image-v2-21Aug2024-180135-6001007162832-Straight_on-242402-1300_400Wx400H",
+  "product_id": "000000000000359011_EA",
+  "main_category": "Cleaning and Household",
+  "sub_category": "Household and Cleaning",
+  "category_url": "https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:category:household-and-cleaning-423144840",
+  "scraped_at": "2025-11-27T08:38:09.636728+00:00",
   "data_attributes": {
-    "item_id": "000000000000204792_EA",
-    "item_name": "Flora Light 40% Fat Spread 1kg",
-    "item_price": "69.99",
+    "item_id": "000000000000359011_EA",
+    "item_name": "PnP 2 Ply White Toilet Paper 18 Pack",
+    "item_price": "129.99",
     "strategy_id": null
   }
 },
 {
-  "name": "Sunshine D 60% Fat Spread 1kg",
-  "price": "R49.99",
+  "name": "Colgate Triple Action Multibenefit Toothpaste 100ml",
+  "price": "R 24.99",
   "original_price": null,
-  "product_url": "https://www.pnp.co.za/sunshine-d-60-fat-spread-1kg/p/000000000000217903_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h39/hfe/11016529707038/silo-product-image-v2-16Nov2022-180125-6001250000028-Straight_on-72948-1271_400Wx400H",
-  "product_id": "000000000000217903_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.520926+00:00",
+  "product_url": "https://www.pnp.co.za/colgate-triple-action-multibenefit-toothpaste-100ml/p/000000000000647582_EA",
+  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h73/h2d/11123918176286/silo-product-image-v2-16Mar2023-183326-6920354814891-Straight_on-89500-7195_400Wx400H",
+  "product_id": "000000000000647582_EA",
+  "main_category": "Personal Care",
+  "sub_category": "Personal Care and Hygiene",
+  "category_url": "https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:category:personal-care-and-hygiene-423144840",
+  "scraped_at": "2025-11-27T08:38:19.612935+00:00",
   "data_attributes": {
-    "item_id": "000000000000217903_EA",
-    "item_name": "Sunshine D 60% Fat Spread 1kg",
-    "item_price": "49.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Rama Original 60% Fat Spread 1kg",
-  "price": "R69.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/rama-original-60-fat-spread-1kg/p/000000000000343957_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h0e/h61/12112771940382/silo-product-image-v2-21May2025-180100-6009710390290-Straight_on-323926-59_400Wx400H",
-  "product_id": "000000000000343957_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.522002+00:00",
-  "data_attributes": {
-    "item_id": "000000000000343957_EA",
-    "item_name": "Rama Original 60% Fat Spread 1kg",
-    "item_price": "69.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Stork Baking Margarine 500g",
-  "price": "R38.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/stork-baking-margarine-500g/p/000000000000218454_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/hf1/hb7/11620512104478/silo-product-image-v2-26Mar2025-180127-6009710390016-Straight_on-301545-318_400Wx400H",
-  "product_id": "000000000000218454_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.522925+00:00",
-  "data_attributes": {
-    "item_id": "000000000000218454_EA",
-    "item_name": "Stork Baking Margarine 500g",
-    "item_price": "38.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Wooden Spoon Yellow Margarine 500g",
-  "price": "R32.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/wooden-spoon-yellow-margarine-500g/p/000000000000516493_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/ha5/hd8/11009467973662/silo-product-image-v2-09Nov2022-180132-6001250075019-Straight_on-71136-5776_400Wx400H",
-  "product_id": "000000000000516493_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.523928+00:00",
-  "data_attributes": {
-    "item_id": "000000000000516493_EA",
-    "item_name": "Wooden Spoon Yellow Margarine 500g",
-    "item_price": "32.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Wooden Spoon White Baking Margarine 500g",
-  "price": "R32.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/wooden-spoon-white-baking-margarine-500g/p/000000000000125033_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/he7/hd3/11009496678430/silo-product-image-v2-09Nov2022-180136-6001250075002-Straight_on-71079-5840_400Wx400H",
-  "product_id": "000000000000125033_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.524434+00:00",
-  "data_attributes": {
-    "item_id": "000000000000125033_EA",
-    "item_name": "Wooden Spoon White Baking Margarine 500g",
-    "item_price": "32.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Canola Margarine 1kg",
-  "price": "R64.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/canola-margarine-1kg/p/000000000000123226_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h62/h74/12113190256670/silo-product-image-v2-21May2025-180139-6001114000966-Straight_on-322382-357_400Wx400H",
-  "product_id": "000000000000123226_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.525438+00:00",
-  "data_attributes": {
-    "item_id": "000000000000123226_EA",
-    "item_name": "Canola Margarine 1kg",
-    "item_price": "64.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Springbok Unsalted Butter 500g",
-  "price": "R99.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/springbok-unsalted-butter-500g/p/000000000000251804_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/haa/hca/11602819645470/silo-product-image-v2-11Mar2025-180120-6001299810213-Straight_on-296887-216_400Wx400H",
-  "product_id": "000000000000251804_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.526466+00:00",
-  "data_attributes": {
-    "item_id": "000000000000251804_EA",
-    "item_name": "Springbok Unsalted Butter 500g",
-    "item_price": "99.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Rama Spread Fat Spread 37% Tub 1kg",
-  "price": "R49.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/rama-spread-fat-spread-37-tub-1kg/p/000000000000894139_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h22/hdc/10963682492446/silo-product-image-v2-29Sep2022-180155-6009710390573-Straight_on-58362-2394_400Wx400H",
-  "product_id": "000000000000894139_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.527439+00:00",
-  "data_attributes": {
-    "item_id": "000000000000894139_EA",
-    "item_name": "Rama Spread Fat Spread 37% Tub 1kg",
-    "item_price": "49.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "PnP Salted Butter 500g",
-  "price": "R74.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/pnp-salted-butter-500g/p/000000000000891243_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h1a/h76/11185818730526/silo-product-image-v2-01Jun2023-180812-6009218560584-Straight_on-134957-1565_400Wx400H",
-  "product_id": "000000000000891243_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.527439+00:00",
-  "data_attributes": {
-    "item_id": "000000000000891243_EA",
-    "item_name": "PnP Salted Butter 500g",
-    "item_price": "74.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Blossom Regular Margarine 500g",
-  "price": "R19.99",
-  "original_price": "R25.99",
-  "product_url": "https://www.pnp.co.za/blossom-regular-margarine-500g/p/000000000000138415_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/hc1/h99/11042159394846/silo-product-image-v2-07Dec2022-180118-6001114000027-Straight_on-80118-3174_400Wx400H",
-  "product_id": "000000000000138415_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.529437+00:00",
-  "data_attributes": {
-    "item_id": "000000000000138415_EA",
-    "item_name": "Blossom Regular Margarine 500g",
-    "item_price": "19.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Sunshine D Original Margarine Brick 500g",
-  "price": "R29.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/sunshine-d-original-margarine-brick-500g/p/000000000000267315_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/ha9/hd2/12374954573854/silo-product-image-v2-05Jun2025-180040-6001250015008-Straight_on-328400-352_400Wx400H",
-  "product_id": "000000000000267315_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.531437+00:00",
-  "data_attributes": {
-    "item_id": "000000000000267315_EA",
-    "item_name": "Sunshine D Original Margarine Brick 500g",
-    "item_price": "29.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "No Name 25% Lite Fat Spread 1kg",
-  "price": "R36.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/no-name-25-lite-fat-spread-1kg/p/000000000000688395_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h65/h71/11125315993630/silo-product-image-v2-16Mar2023-184236-6001007315474-Straight_on-120250-9541_400Wx400H",
-  "product_id": "000000000000688395_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.532436+00:00",
-  "data_attributes": {
-    "item_id": "000000000000688395_EA",
-    "item_name": "No Name 25% Lite Fat Spread 1kg",
-    "item_price": "36.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Ole Low Fat Tub 1kg",
-  "price": "R29.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/ole-low-fat-tub-1kg/p/000000000000158829_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h65/h53/11033628606494/silo-product-image-v2-30Nov2022-180209-6001114000386-Straight_on-75595-2525_400Wx400H",
-  "product_id": "000000000000158829_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.533437+00:00",
-  "data_attributes": {
-    "item_id": "000000000000158829_EA",
-    "item_name": "Ole Low Fat Tub 1kg",
-    "item_price": "29.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Rama 70% Fat Spread Original Brick 125g",
-  "price": "R14.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/rama-70-fat-spread-original-brick-125g/p/000000000000179592_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h80/hbd/10972965896222/silo-product-image-v2-06Oct2022-180112-6009710390221-Straight_on-61425-2874_400Wx400H",
-  "product_id": "000000000000179592_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.534437+00:00",
-  "data_attributes": {
-    "item_id": "000000000000179592_EA",
-    "item_name": "Rama 70% Fat Spread Original Brick 125g",
-    "item_price": "14.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Stork 40% Fat Spread 500g",
-  "price": "R41.49",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/stork-40-fat-spread-500g/p/000000000000159745_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h91/ha1/11127106764830/silo-product-image-v2-16Mar2023-185330-6009710390238-Straight_on-108994-12391_400Wx400H",
-  "product_id": "000000000000159745_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.535436+00:00",
-  "data_attributes": {
-    "item_id": "000000000000159745_EA",
-    "item_name": "Stork 40% Fat Spread 500g",
-    "item_price": "41.49",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Rama 37% Fat Spread For Bread 500g",
-  "price": "R35.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/rama-37-fat-spread-for-bread-500g/p/000000000000896515_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h58/hd5/10963764051998/silo-product-image-v2-29Sep2022-180202-6009710390566-Straight_on-58360-2533_400Wx400H",
-  "product_id": "000000000000896515_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.536437+00:00",
-  "data_attributes": {
-    "item_id": "000000000000896515_EA",
-    "item_name": "Rama 37% Fat Spread For Bread 500g",
-    "item_price": "35.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Blossom Lite Medium Fat Spread 1kg",
-  "price": "R39.99",
-  "original_price": "R51.99",
-  "product_url": "https://www.pnp.co.za/blossom-lite-medium-fat-spread-1kg/p/000000000000258282_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h9d/h3e/11241200746526/silo-product-image-v2-15Aug2023-180900-6001114000324-Straight_on-164733-807_400Wx400H",
-  "product_id": "000000000000258282_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.538440+00:00",
-  "data_attributes": {
-    "item_id": "000000000000258282_EA",
-    "item_name": "Blossom Lite Medium Fat Spread 1kg",
-    "item_price": "39.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Stork White Margarine 500g",
-  "price": "R38.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/stork-white-margarine-500g/p/000000000000951955_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h17/h36/11392048332830/silo-product-image-v2-27Mar2024-180205-6009710390740-Straight_on-217646-4424_400Wx400H",
-  "product_id": "000000000000951955_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.539485+00:00",
-  "data_attributes": {
-    "item_id": "000000000000951955_EA",
-    "item_name": "Stork White Margarine 500g",
-    "item_price": "38.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "PnP Butter Spread 500g",
-  "price": "R64.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/pnp-butter-spread-500g/p/000000000000220235_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/hb9/h2b/14262132703262/silo-product-image-v2-07Aug2025-180028-6001007319762-Straight_on-340848-274_400Wx400H",
-  "product_id": "000000000000220235_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.540487+00:00",
-  "data_attributes": {
-    "item_id": "000000000000220235_EA",
-    "item_name": "PnP Butter Spread 500g",
-    "item_price": "64.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "PnP Best for Bake Margarine Brick 1kg",
-  "price": "R59.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/pnp-best-for-bake-margarine-brick-1kg/p/000000000000509654_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/ha1/h79/11576952913950/silo-product-image-v2-12Feb2025-180107-6001007248024-Straight_on-290812-1961_400Wx400H",
-  "product_id": "000000000000509654_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.541487+00:00",
-  "data_attributes": {
-    "item_id": "000000000000509654_EA",
-    "item_name": "PnP Best for Bake Margarine Brick 1kg",
-    "item_price": "59.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Rama 70% Fat Spread Original Brick 250g",
-  "price": "R22.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/rama-70-fat-spread-original-brick-250g/p/000000000000168032_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/he7/h3a/11002121519134/silo-product-image-v2-02Nov2022-180200-6009710390214-Straight_on-69485-2403_400Wx400H",
-  "product_id": "000000000000168032_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.542489+00:00",
-  "data_attributes": {
-    "item_id": "000000000000168032_EA",
-    "item_name": "Rama 70% Fat Spread Original Brick 250g",
-    "item_price": "22.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Flora Light 40% Fat Spread 500g",
-  "price": "R49.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/flora-light-40-fat-spread-500g/p/000000000000216384_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h74/h83/11120788340766/silo-product-image-v2-16Mar2023-181103-6009710390153-Straight_on-116135-2176_400Wx400H",
-  "product_id": "000000000000216384_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.543494+00:00",
-  "data_attributes": {
-    "item_id": "000000000000216384_EA",
-    "item_name": "Flora Light 40% Fat Spread 500g",
-    "item_price": "49.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Marvello Original 70% Fat Spread 500g",
-  "price": "R32.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/marvello-original-70-fat-spread-500g/p/000000000000208937_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/hf0/h3e/11607251746846/silo-product-image-v2-15Mar2025-180122-6009710390061-Straight_on-298271-1313_400Wx400H",
-  "product_id": "000000000000208937_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.544487+00:00",
-  "data_attributes": {
-    "item_id": "000000000000208937_EA",
-    "item_name": "Marvello Original 70% Fat Spread 500g",
-    "item_price": "32.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Rama 37% Fat Spread For Bread 500g",
-  "price": "R22.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/rama-37-fat-spread-for-bread-500g/p/000000000000911123_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/hb8/h56/11267405250590/silo-product-image-v2-20Sep2023-180652-6009710390580-Straight_on-174814-244_400Wx400H",
-  "product_id": "000000000000911123_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.545488+00:00",
-  "data_attributes": {
-    "item_id": "000000000000911123_EA",
-    "item_name": "Rama 37% Fat Spread For Bread 500g",
-    "item_price": "22.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "First Choice Salted Butter 500g",
-  "price": "R89.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/first-choice-salted-butter-500g/p/000000000000254063_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h68/h1a/10773328953374/silo-product-image-v2-15Mar2022-180826-6007251000128-Straight_on-8568-23284_400Wx400H",
-  "product_id": "000000000000254063_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.546490+00:00",
-  "data_attributes": {
-    "item_id": "000000000000254063_EA",
-    "item_name": "First Choice Salted Butter 500g",
-    "item_price": "89.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Cordon Bleu Butter Flavoured 70% Fat Spread 500g",
-  "price": "R27.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/cordon-bleu-butter-flavoured-70-fat-spread-500g/p/000000000000141232_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/hd6/h8f/14479653109790/silo-product-image-v2-12Aug2025-180144-6001250025007-Straight_on-342184-1012_400Wx400H",
-  "product_id": "000000000000141232_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.547488+00:00",
-  "data_attributes": {
-    "item_id": "000000000000141232_EA",
-    "item_name": "Cordon Bleu Butter Flavoured 70% Fat Spread 500g",
-    "item_price": "27.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Lurpak Salted Butter Spread 500g",
-  "price": "R179.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/lurpak-salted-butter-spread-500g/p/000000000000253546_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/he7/h76/10770811944990/silo-product-image-v2-15Mar2022-180203-5740900805408-Straight_on-6775-18079_400Wx400H",
-  "product_id": "000000000000253546_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.549488+00:00",
-  "data_attributes": {
-    "item_id": "000000000000253546_EA",
-    "item_name": "Lurpak Salted Butter Spread 500g",
-    "item_price": "179.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Lurpak Salted Butter Spread 250g",
-  "price": "R94.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/lurpak-salted-butter-spread-250g/p/000000000000384420_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h5b/h10/10770823675934/silo-product-image-v2-15Mar2022-180203-5740900401099-Straight_on-6773-18073_400Wx400H",
-  "product_id": "000000000000384420_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.551554+00:00",
-  "data_attributes": {
-    "item_id": "000000000000384420_EA",
-    "item_name": "Lurpak Salted Butter Spread 250g",
-    "item_price": "94.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "No Name 40% Fat Spread 500g",
-  "price": "R17.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/no-name-40-fat-spread-500g/p/000000000000796145_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h75/h85/11033398575134/silo-product-image-v2-30Nov2022-180141-6001000542969-Straight_on-75365-2006_400Wx400H",
-  "product_id": "000000000000796145_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.554551+00:00",
-  "data_attributes": {
-    "item_id": "000000000000796145_EA",
-    "item_name": "No Name 40% Fat Spread 500g",
-    "item_price": "17.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Blossom Lite 50% Fat Spread Tub 500g",
-  "price": "R28.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/blossom-lite-50-fat-spread-tub-500g/p/000000000000227120_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/hcc/h12/11241186885662/silo-product-image-v2-15Aug2023-180846-6001114000362-Straight_on-164739-785_400Wx400H",
-  "product_id": "000000000000227120_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.555551+00:00",
-  "data_attributes": {
-    "item_id": "000000000000227120_EA",
-    "item_name": "Blossom Lite 50% Fat Spread Tub 500g",
-    "item_price": "28.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Ladismith Salted Butter 500g",
-  "price": "R79.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/ladismith-salted-butter-500g/p/000000000000179857_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/hc6/h3d/10771001540638/silo-product-image-v2-15Mar2022-180228-6009646990137-Straight_on-8168-18385_400Wx400H",
-  "product_id": "000000000000179857_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.556552+00:00",
-  "data_attributes": {
-    "item_id": "000000000000179857_EA",
-    "item_name": "Ladismith Salted Butter 500g",
-    "item_price": "79.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Canola Lite 50% Fat Spread 1kg",
-  "price": "R64.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/canola-lite-50-fat-spread-1kg/p/000000000000236453_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h28/h69/11120021143582/silo-product-image-v2-16Mar2023-180554-6001114002731-Straight_on-114097-940_400Wx400H",
-  "product_id": "000000000000236453_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.557551+00:00",
-  "data_attributes": {
-    "item_id": "000000000000236453_EA",
-    "item_name": "Canola Lite 50% Fat Spread 1kg",
-    "item_price": "64.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Holsum Pure White Cooking Fat 125g",
-  "price": "R12.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/holsum-pure-white-cooking-fat-125g/p/000000000000252881_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h4b/hf9/10868919042078/silo-product-image-v2-08Jun2022-180320-6009809570817-Straight_on-39877-38735_400Wx400H",
-  "product_id": "000000000000252881_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.559553+00:00",
-  "data_attributes": {
-    "item_id": "000000000000252881_EA",
-    "item_name": "Holsum Pure White Cooking Fat 125g",
-    "item_price": "12.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "D'lite 37% Fat Spread 500g",
-  "price": "R24.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/d-lite-37-fat-spread-500g/p/000000000000613203_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h49/hcc/11009484750878/silo-product-image-v2-09Nov2022-180135-6001565029516-Straight_on-71068-5824_400Wx400H",
-  "product_id": "000000000000613203_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.561552+00:00",
-  "data_attributes": {
-    "item_id": "000000000000613203_EA",
-    "item_name": "D'lite 37% Fat Spread 500g",
+    "item_id": "000000000000647582_EA",
+    "item_name": "Colgate Triple Action Multibenefit Toothpaste 100ml",
     "item_price": "24.99",
     "strategy_id": null
   }
 },
 {
-  "name": "Butro Butter Spread 250g",
-  "price": "R65.99",
+  "name": "Colgate Active Salt Antigerm Toothpaste 75ml",
+  "price": "R 24.99",
   "original_price": null,
-  "product_url": "https://www.pnp.co.za/butro-butter-spread-250g/p/000000000000138366_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/hbb/h21/14479766880286/silo-product-image-v2-12Aug2025-180206-60067999-Straight_on-342418-1094_400Wx400H",
-  "product_id": "000000000000138366_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.563551+00:00",
+  "product_url": "https://www.pnp.co.za/colgate-active-salt-antigerm-toothpaste-75ml/p/000000000000602559_EA",
+  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/ha2/hc8/10999960141854/silo-product-image-v2-01Nov2022-180146-8901314009180-Straight_on-68593-799_400Wx400H",
+  "product_id": "000000000000602559_EA",
+  "main_category": "Personal Care",
+  "sub_category": "Personal Care and Hygiene",
+  "category_url": "https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:category:personal-care-and-hygiene-423144840",
+  "scraped_at": "2025-11-27T08:38:19.612935+00:00",
   "data_attributes": {
-    "item_id": "000000000000138366_EA",
-    "item_name": "Butro Butter Spread 250g",
-    "item_price": "65.99",
+    "item_id": "000000000000602559_EA",
+    "item_name": "Colgate Active Salt Antigerm Toothpaste 75ml",
+    "item_price": "24.99",
     "strategy_id": null
   }
 },
 {
-  "name": "Flora Regular 50% Fat Spread 500g",
-  "price": "R49.99",
+  "name": "Gloop Assorted Splodge Ball Splat",
+  "price": "R 39.99",
   "original_price": null,
-  "product_url": "https://www.pnp.co.za/flora-regular-50-fat-spread-500g/p/000000000000348448_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/he6/h75/11120788733982/silo-product-image-v2-16Mar2023-181104-6009710390306-Straight_on-116147-2181_400Wx400H",
-  "product_id": "000000000000348448_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.564551+00:00",
+  "product_url": "https://www.pnp.co.za/gloop-assorted-splodge-ball-splat/p/000000000000972708_EA",
+  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/ha9/hf8/11517870800926/silo-product-image-v2-09Nov2024-180112-6009714431487-Straight_on-264746-1228_400Wx400H",
+  "product_id": "000000000000972708_EA",
+  "main_category": "Baby and Kids",
+  "sub_category": "Toys and Games",
+  "category_url": "https://www.pnp.co.za/c/toys-and-games-423144840",
+  "scraped_at": "2025-11-27T08:38:39.465323+00:00",
   "data_attributes": {
-    "item_id": "000000000000348448_EA",
-    "item_name": "Flora Regular 50% Fat Spread 500g",
-    "item_price": "49.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Flora Gold 50% Fat Spread 1kg",
-  "price": "R76.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/flora-gold-50-fat-spread-1kg/p/000000000000951970_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h4e/h0c/11415673602078/silo-product-image-v2-14May2024-141713-6009710390696-Straight_on-221754-197_400Wx400H",
-  "product_id": "000000000000951970_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.565551+00:00",
-  "data_attributes": {
-    "item_id": "000000000000951970_EA",
-    "item_name": "Flora Gold 50% Fat Spread 1kg",
-    "item_price": "76.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "D'lite Medium Fat Spread Brick 500g",
-  "price": "R17.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/d-lite-medium-fat-spread-brick-500g/p/000000000000412222_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/hb0/h0d/11187699777566/silo-product-image-v2-01Jun2023-182132-6001250015022-Straight_on-145167-4540_400Wx400H",
-  "product_id": "000000000000412222_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.565551+00:00",
-  "data_attributes": {
-    "item_id": "000000000000412222_EA",
-    "item_name": "D'lite Medium Fat Spread Brick 500g",
-    "item_price": "17.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Rama Original 60% Fat Spread 500g",
-  "price": "R48.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/rama-original-60-fat-spread-500g/p/000000000000380637_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/hba/h9c/12112730128414/silo-product-image-v2-21May2025-180101-6009710390160-Straight_on-323922-59_400Wx400H",
-  "product_id": "000000000000380637_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.565551+00:00",
-  "data_attributes": {
-    "item_id": "000000000000380637_EA",
-    "item_name": "Rama Original 60% Fat Spread 500g",
-    "item_price": "48.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Flora 50% Plant Fat Spread 500g",
-  "price": "R47.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/flora-50-plant-fat-spread-500g/p/000000000000951971_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/hf6/h12/11400617230366/silo-product-image-v2-10Apr2024-180230-6009710390702-Straight_on-220052-2624_400Wx400H",
-  "product_id": "000000000000951971_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.565551+00:00",
-  "data_attributes": {
-    "item_id": "000000000000951971_EA",
-    "item_name": "Flora 50% Plant Fat Spread 500g",
-    "item_price": "47.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Parmalat Garlic & Parsley Butter 150g",
-  "price": "R49.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/parmalat-garlic-parsley-butter-150g/p/000000000000154853_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/hd5/hef/11196762030110/silo-product-image-v2-08Jun2023-180223-6001049031356-Straight_on-150997-776_400Wx400H",
-  "product_id": "000000000000154853_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.571242+00:00",
-  "data_attributes": {
-    "item_id": "000000000000154853_EA",
-    "item_name": "Parmalat Garlic & Parsley Butter 150g",
-    "item_price": "49.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "D'Lite 37% Fat Spread 1kg",
-  "price": "R45.49",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/d-lite-37-fat-spread-1kg/p/000000000000613204_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/hf2/h4f/11009474199582/silo-product-image-v2-09Nov2022-180132-6001565029523-Straight_on-71158-5779_400Wx400H",
-  "product_id": "000000000000613204_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.572248+00:00",
-  "data_attributes": {
-    "item_id": "000000000000613204_EA",
-    "item_name": "D'Lite 37% Fat Spread 1kg",
-    "item_price": "45.49",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Ladismith Unsalted Butter 500g",
-  "price": "R79.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/ladismith-unsalted-butter-500g/p/000000000000231622_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h65/h12/10898381340702/silo-product-image-v2-12Jul2022-180145-6009646990199-Straight_on-48912-6281_400Wx400H",
-  "product_id": "000000000000231622_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.573243+00:00",
-  "data_attributes": {
-    "item_id": "000000000000231622_EA",
-    "item_name": "Ladismith Unsalted Butter 500g",
-    "item_price": "79.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Flora Gold 50% Fat Spread 500g",
-  "price": "R47.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/flora-gold-50-fat-spread-500g/p/000000000000952182_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h88/h05/11413164195870/silo-product-image-v2-09May2024-180206-6009710390719-Straight_on-222252-629_400Wx400H",
-  "product_id": "000000000000952182_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.574244+00:00",
-  "data_attributes": {
-    "item_id": "000000000000952182_EA",
-    "item_name": "Flora Gold 50% Fat Spread 500g",
-    "item_price": "47.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "PnP Best for Bake Margarine Brick 500g",
-  "price": "R29.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/pnp-best-for-bake-margarine-brick-500g/p/000000000000509655_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/he0/hf1/12909784563742/silo-product-image-v2-01Jul2025-180047-6001007248031-Straight_on-332617-367_400Wx400H",
-  "product_id": "000000000000509655_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.575783+00:00",
-  "data_attributes": {
-    "item_id": "000000000000509655_EA",
-    "item_name": "PnP Best for Bake Margarine Brick 500g",
-    "item_price": "29.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Stork 40% Fat Spread Country Brick 500g",
-  "price": "R27.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/stork-40-fat-spread-country-brick-500g/p/000000000000638939_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/had/hb9/11024698408990/silo-product-image-v2-23Nov2022-180150-6009710390191-Straight_on-74337-396_400Wx400H",
-  "product_id": "000000000000638939_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.578289+00:00",
-  "data_attributes": {
-    "item_id": "000000000000638939_EA",
-    "item_name": "Stork 40% Fat Spread Country Brick 500g",
-    "item_price": "27.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Sunshine D Lite 40% Fat Spread 1kg",
-  "price": "R49.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/sunshine-d-lite-40-fat-spread-1kg/p/000000000000151569_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h89/hd3/11009586659358/silo-product-image-v2-09Nov2022-180148-6001250065034-Straight_on-71063-6043_400Wx400H",
-  "product_id": "000000000000151569_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.579817+00:00",
-  "data_attributes": {
-    "item_id": "000000000000151569_EA",
-    "item_name": "Sunshine D Lite 40% Fat Spread 1kg",
-    "item_price": "49.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Flora Proactiv 35% Fat Spread 500g",
-  "price": "R77.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/flora-proactiv-35-fat-spread-500g/p/000000000000777226_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h26/hdf/11120787783710/silo-product-image-v2-16Mar2023-181103-6009710390412-Straight_on-116139-2177_400Wx400H",
-  "product_id": "000000000000777226_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.581141+00:00",
-  "data_attributes": {
-    "item_id": "000000000000777226_EA",
-    "item_name": "Flora Proactiv 35% Fat Spread 500g",
-    "item_price": "77.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Flora Plant Bake 75% Fat Spread 500g",
-  "price": "R59.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/flora-plant-bake-75-fat-spread-500g/p/000000000000952185_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h2b/h98/11392154828830/silo-product-image-v2-27Mar2024-180244-6009710390771-Straight_on-217650-4590_400Wx400H",
-  "product_id": "000000000000952185_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.582146+00:00",
-  "data_attributes": {
-    "item_id": "000000000000952185_EA",
-    "item_name": "Flora Plant Bake 75% Fat Spread 500g",
-    "item_price": "59.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Canola Full Fat Tub 500g",
-  "price": "R37.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/canola-full-fat-tub-500g/p/000000000000159739_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/hef/h88/11033508020254/silo-product-image-v2-30Nov2022-180155-6001114000959-Straight_on-75599-2270_400Wx400H",
-  "product_id": "000000000000159739_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.582146+00:00",
-  "data_attributes": {
-    "item_id": "000000000000159739_EA",
-    "item_name": "Canola Full Fat Tub 500g",
-    "item_price": "37.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Lurpak Salted Butter 100g",
-  "price": "R49.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/lurpak-salted-butter-100g/p/000000000000487067_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h71/hf5/10860097110046/silo-product-image-v2-04Jun2022-180102-5740900846401-Straight_on-39354-30822_400Wx400H",
-  "product_id": "000000000000487067_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.582146+00:00",
-  "data_attributes": {
-    "item_id": "000000000000487067_EA",
-    "item_name": "Lurpak Salted Butter 100g",
-    "item_price": "49.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Ladismith Spreado Butter Spread 500g",
-  "price": "R79.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/ladismith-spreado-butter-spread-500g/p/000000000000372600_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h3a/hf7/11375678619678/silo-product-image-v2-01Mar2024-180322-6009646990434-Straight_on-209593-3200_400Wx400H",
-  "product_id": "000000000000372600_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.582146+00:00",
-  "data_attributes": {
-    "item_id": "000000000000372600_EA",
-    "item_name": "Ladismith Spreado Butter Spread 500g",
-    "item_price": "79.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "PnP Let's Cook Bakehouse Garlic Spread Tub 250g",
-  "price": "R39.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/pnp-let-s-cook-bakehouse-garlic-spread-tub-250g/p/000000000000638570_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h88/h21/11240750317598/silo-product-image-v2-15Aug2023-180220-6001007339111-Straight_on-164415-94_400Wx400H",
-  "product_id": "000000000000638570_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.586142+00:00",
-  "data_attributes": {
-    "item_id": "000000000000638570_EA",
-    "item_name": "PnP Let's Cook Bakehouse Garlic Spread Tub 250g",
+    "item_id": "000000000000972708_EA",
+    "item_name": "Gloop Assorted Splodge Ball Splat",
     "item_price": "39.99",
     "strategy_id": null
   }
 },
 {
-  "name": "Epic Butter Ghee 400g",
-  "price": "R79.99",
+  "name": "Champion Paint A Pet Kitty & Frenchie",
+  "price": "R 99.99",
   "original_price": null,
-  "product_url": "https://www.pnp.co.za/epic-butter-ghee-400g/p/000000000000921312_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h15/h8e/11375357067294/silo-product-image-v2-01Mar2024-180152-6001114000478-Straight_on-210587-2681_400Wx400H",
-  "product_id": "000000000000921312_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.588146+00:00",
+  "product_url": "https://www.pnp.co.za/champion-paint-a-pet-kitty-frenchie/p/000000000000925571_EA",
+  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h85/hdf/11308043337758/silo-product-image-v2-18Nov2023-180349-4894620007992-Straight_on-191505-1771_400Wx400H",
+  "product_id": "000000000000925571_EA",
+  "main_category": "Baby and Kids",
+  "sub_category": "Toys and Games",
+  "category_url": "https://www.pnp.co.za/c/toys-and-games-423144840",
+  "scraped_at": "2025-11-27T08:38:39.465323+00:00",
   "data_attributes": {
-    "item_id": "000000000000921312_EA",
-    "item_name": "Epic Butter Ghee 400g",
-    "item_price": "79.99",
-    "strategy_id": null
-  }
-}
-,{
-  "name": "Blossom Lite 50% Fat Spread Brick 500g",
-  "price": "R19.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/blossom-lite-50-fat-spread-brick-500g/p/000000000000222316_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/hbd/ha4/11323547353118/silo-product-image-v2-07Dec2023-091842-6001114000829-Straight_on-179728-1318_400Wx400H",
-  "product_id": "000000000000222316_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.589149+00:00",
-  "data_attributes": {
-    "item_id": "000000000000222316_EA",
-    "item_name": "Blossom Lite 50% Fat Spread Brick 500g",
-    "item_price": "19.99",
+    "item_id": "000000000000925571_EA",
+    "item_name": "Champion Paint A Pet Kitty & Frenchie",
+    "item_price": "99.99",
     "strategy_id": null
   }
 },
 {
-  "name": "Kerrygold Softer Butter 500g",
-  "price": "R169.99",
-  "original_price": "R199.99",
-  "product_url": "https://www.pnp.co.za/kerrygold-softer-butter-500g/p/000000000000145667_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h23/haf/11496424734750/silo-product-image-v2-04Oct2024-180056-5011038133450-Straight_on-252858-105_400Wx400H",
-  "product_id": "000000000000145667_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.590145+00:00",
-  "data_attributes": {
-    "item_id": "000000000000145667_EA",
-    "item_name": "Kerrygold Softer Butter 500g",
-    "item_price": "169.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Lurpak Medium Fat Salted Butter Spread 250g",
-  "price": "R94.99",
+  "name": "Bioplus Strawberry Sachet 10ml",
+  "price": "R 6.99",
   "original_price": null,
-  "product_url": "https://www.pnp.co.za/lurpak-medium-fat-salted-butter-spread-250g/p/000000000000312367_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/hb5/h8f/10860091768862/silo-product-image-v2-04Jun2022-180101-5740900400894-Straight_on-39340-30808_400Wx400H",
-  "product_id": "000000000000312367_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.592537+00:00",
+  "product_url": "https://www.pnp.co.za/bioplus-strawberry-sachet-10ml/p/000000000000592705_EA",
+  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/hc0/h00/11011041919006/silo-product-image-v2-10Nov2022-180131-6009695584936-Straight_on-71882-6936_400Wx400H",
+  "product_id": "000000000000592705_EA",
+  "main_category": "Health and Wellness",
+  "sub_category": "Health and Wellness",
+  "category_url": "https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:category:health-and-wellness-423144840",
+  "scraped_at": "2025-11-27T08:38:54.673610+00:00",
   "data_attributes": {
-    "item_id": "000000000000312367_EA",
-    "item_name": "Lurpak Medium Fat Salted Butter Spread 250g",
-    "item_price": "94.99",
+    "item_id": "000000000000592705_EA",
+    "item_name": "Bioplus Strawberry Sachet 10ml",
+    "item_price": "6.99",
     "strategy_id": null
   }
 },
 {
-  "name": "Epic Canola Gold 60% Fat Spread Tub 1kg",
-  "price": "R49.99",
+  "name": "Grand-pa Headache Powders",
+  "price": "R 5.49",
   "original_price": null,
-  "product_url": "https://www.pnp.co.za/epic-canola-gold-60-fat-spread-tub-1kg/p/000000000000995231_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/hce/ha9/13164430393374/silo-product-image-v2-10Jul2025-180045-6001114000652-Straight_on-334322-879_400Wx400H",
-  "product_id": "000000000000995231_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.593443+00:00",
+  "product_url": "https://www.pnp.co.za/grand-pa-headache-powders/p/000000000000169423_EA",
+  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/hc1/h0c/12100007657502/silo-product-image-v2-20May2025-180142-60099983-Straight_on-321451-663_400Wx400H",
+  "product_id": "000000000000169423_EA",
+  "main_category": "Health and Wellness",
+  "sub_category": "Health and Wellness",
+  "category_url": "https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:category:health-and-wellness-423144840",
+  "scraped_at": "2025-11-27T08:38:54.673610+00:00",
   "data_attributes": {
-    "item_id": "000000000000995231_EA",
-    "item_name": "Epic Canola Gold 60% Fat Spread Tub 1kg",
-    "item_price": "49.99",
+    "item_id": "000000000000169423_EA",
+    "item_name": "Grand-pa Headache Powders",
+    "item_price": "5.49",
     "strategy_id": null
   }
 },
 {
-  "name": "Lurpak Unsalted Butter 100g",
-  "price": "R49.99",
+  "name": "Energizer Max AAA 12 Pack",
+  "price": "R 164.99",
   "original_price": null,
-  "product_url": "https://www.pnp.co.za/lurpak-unsalted-butter-100g/p/000000000000487068_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h8c/h6a/10860106285086/silo-product-image-v2-04Jun2022-180102-5740900873100-Straight_on-39356-30823_400Wx400H",
-  "product_id": "000000000000487068_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.594443+00:00",
+  "product_url": "https://www.pnp.co.za/energizer-max-aaa-12-pack/p/000000000000793068_EA",
+  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h48/hbb/12113303404574/silo-product-image-v2-21May2025-180147-8888021206319-Straight_on-324508-335_400Wx400H",
+  "product_id": "000000000000793068_EA",
+  "main_category": "Electronics",
+  "sub_category": "Electronics and Office",
+  "category_url": "https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:category:electronics-and-office-423144840",
+  "scraped_at": "2025-11-27T08:39:08.885939+00:00",
   "data_attributes": {
-    "item_id": "000000000000487068_EA",
-    "item_name": "Lurpak Unsalted Butter 100g",
-    "item_price": "49.99",
+    "item_id": "000000000000793068_EA",
+    "item_name": "Energizer Max AAA 12 Pack",
+    "item_price": "164.99",
     "strategy_id": null
   }
 },
 {
-  "name": "Kerrygold Pure Irish Butter 500g",
-  "price": "R169.99",
-  "original_price": "R194.99",
-  "product_url": "https://www.pnp.co.za/kerrygold-pure-irish-butter-500g/p/000000000000170932_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h4d/hb4/12100240506910/silo-product-image-v2-20May2025-180158-5011038005009-Straight_on-320729-667_400Wx400H",
-  "product_id": "000000000000170932_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.595448+00:00",
-  "data_attributes": {
-    "item_id": "000000000000170932_EA",
-    "item_name": "Kerrygold Pure Irish Butter 500g",
-    "item_price": "169.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Kerrygold Softer Butter 250g",
-  "price": "R104.99",
+  "name": "Sandisk Cruizer Blade 64GB",
+  "price": "R 109.99",
   "original_price": null,
-  "product_url": "https://www.pnp.co.za/kerrygold-softer-butter-250g/p/000000000000172732_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/ha5/h02/11398138363934/silo-product-image-v2-09Apr2024-170205-5011038133108-Straight_on-215814-389_400Wx400H",
-  "product_id": "000000000000172732_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.595448+00:00",
+  "product_url": "https://www.pnp.co.za/sandisk-cruizer-blade-64gb/p/000000000000796269_EA",
+  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h37/hf1/10936377999390/silo-product-image-v2-31Aug2022-180134-619659097318-Straight_on-53454-1643_400Wx400H",
+  "product_id": "000000000000796269_EA",
+  "main_category": "Electronics",
+  "sub_category": "Electronics and Office",
+  "category_url": "https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:category:electronics-and-office-423144840",
+  "scraped_at": "2025-11-27T08:39:08.885939+00:00",
   "data_attributes": {
-    "item_id": "000000000000172732_EA",
-    "item_name": "Kerrygold Softer Butter 250g",
-    "item_price": "104.99",
+    "item_id": "000000000000796269_EA",
+    "item_name": "Sandisk Cruizer Blade 64GB",
+    "item_price": "109.99",
     "strategy_id": null
   }
 },
 {
-  "name": "Stork Medium-Fat Modified Butter Spread 500g",
-  "price": "R84.99",
+  "name": "Husky Lamb Chunks in Gravy 775g",
+  "price": "R 39.99",
   "original_price": null,
-  "product_url": "https://www.pnp.co.za/stork-medium-fat-modified-butter-spread-500g/p/000000000000851217_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h62/h9f/11482023002142/silo-product-image-v2-10Sep2024-180107-6009710390436-Straight_on-247382-123_400Wx400H",
-  "product_id": "000000000000851217_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.596526+00:00",
+  "product_url": "https://www.pnp.co.za/husky-lamb-chunks-in-gravy-775g/p/000000000000228340_EA",
+  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/hd8/h0c/11366181994526/silo-product-image-v2-19Feb2024-100058-6001462393871-Straight_on-205465-2355_400Wx400H",
+  "product_id": "000000000000228340_EA",
+  "main_category": "Pet Products",
+  "sub_category": "Pet Care",
+  "category_url": "https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:category:pet-care-423144840",
+  "scraped_at": "2025-11-27T08:39:24.422689+00:00",
   "data_attributes": {
-    "item_id": "000000000000851217_EA",
-    "item_name": "Stork Medium-Fat Modified Butter Spread 500g",
-    "item_price": "84.99",
+    "item_id": "000000000000228340_EA",
+    "item_name": "Husky Lamb Chunks in Gravy 775g",
+    "item_price": "39.99",
     "strategy_id": null
   }
 },
 {
-  "name": "Ole Low Fat Tub 500g",
-  "price": "R22.99",
+  "name": "Husky Wet Chunks in Gravy Beef Steak Flavour 775g",
+  "price": "R 39.99",
   "original_price": null,
-  "product_url": "https://www.pnp.co.za/ole-low-fat-tub-500g/p/000000000000183057_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/hd8/h83/11023053127710/silo-product-image-v2-22Nov2022-180142-6001114000379-Straight_on-74152-2665_400Wx400H",
-  "product_id": "000000000000183057_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.596526+00:00",
+  "product_url": "https://www.pnp.co.za/husky-wet-chunks-in-gravy-beef-steak-flavour-775g/p/000000000000170146_EA",
+  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/hd3/he1/11366192513054/silo-product-image-v2-19Feb2024-100101-6001462394045-Straight_on-205467-2371_400Wx400H",
+  "product_id": "000000000000170146_EA",
+  "main_category": "Pet Products",
+  "sub_category": "Pet Care",
+  "category_url": "https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:category:pet-care-423144840",
+  "scraped_at": "2025-11-27T08:39:24.424250+00:00",
   "data_attributes": {
-    "item_id": "000000000000183057_EA",
-    "item_name": "Ole Low Fat Tub 500g",
-    "item_price": "22.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Kerrygold Pure Irish Butter 250g",
-  "price": "R104.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/kerrygold-pure-irish-butter-250g/p/000000000000135755_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/he7/h03/11033588236318/silo-product-image-v2-30Nov2022-180205-5000165024014-Straight_on-75134-2440_400Wx400H",
-  "product_id": "000000000000135755_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.596526+00:00",
-  "data_attributes": {
-    "item_id": "000000000000135755_EA",
-    "item_name": "Kerrygold Pure Irish Butter 250g",
-    "item_price": "104.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Lurpak Salted Danish Butter 250g",
-  "price": "R94.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/lurpak-salted-danish-butter-250g/p/000000000000154296_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/hc5/h28/10860090818590/silo-product-image-v2-04Jun2022-180101-5740900400092-Straight_on-39334-30802_400Wx400H",
-  "product_id": "000000000000154296_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.596526+00:00",
-  "data_attributes": {
-    "item_id": "000000000000154296_EA",
-    "item_name": "Lurpak Salted Danish Butter 250g",
-    "item_price": "94.99",
-    "strategy_id": null
-  }
-},
-{
-  "name": "Clover Butter Pure Ghee 1.5kg",
-  "price": "R349.99",
-  "original_price": null,
-  "product_url": "https://www.pnp.co.za/clover-butter-pure-ghee-1.5kg/p/000000000000252800_EA",
-  "image_url": "https://cdn-prd-02.pnp.co.za/sys-master/images/h33/h7e/14479582756894/silo-product-image-v2-12Aug2025-180139-6001299810893-Straight_on-342230-959_400Wx400H",
-  "product_id": "000000000000252800_EA",
-  "category": "Butter And Margarine",
-  "category_url": "https://www.pnp.co.za/c/butter-and-margarine44805192",
-  "scraped_at": "2025-11-27T07:27:25.599712+00:00",
-  "data_attributes": {
-    "item_id": "000000000000252800_EA",
-    "item_name": "Clover Butter Pure Ghee 1.5kg",
-    "item_price": "349.99",
+    "item_id": "000000000000170146_EA",
+    "item_name": "Husky Wet Chunks in Gravy Beef Steak Flavour 775g",
+    "item_price": "39.99",
     "strategy_id": null
   }
 }
