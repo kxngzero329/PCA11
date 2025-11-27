@@ -60,7 +60,7 @@ class PicknPaySpider(scrapy.Spider):
         self.logger.info("✅ Within crawling window, starting scrape...")
         self.logger.info(f"🎯 Scraping {self.products_per_category} products per category")
         
-        # Official project categories - 7 main categories
+        # FINAL 6 categories (removed Baby and Kids, added Stationery)
         category_urls = [
             {
                 'url': 'https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:category:food-cupboard-423144840',
@@ -78,11 +78,6 @@ class PicknPaySpider(scrapy.Spider):
                 'sub_category': 'Personal Care and Hygiene'
             },
             {
-                'url': 'https://www.pnp.co.za/c/toys-and-games-423144840',
-                'main_category': 'Baby and Kids',
-                'sub_category': 'Toys and Games'
-            },
-            {
                 'url': 'https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:category:health-and-wellness-423144840',
                 'main_category': 'Health and Wellness',
                 'sub_category': 'Health and Wellness'
@@ -93,9 +88,9 @@ class PicknPaySpider(scrapy.Spider):
                 'sub_category': 'Electronics and Office'
             },
             {
-                'url': 'https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:category:pet-care-423144840',
-                'main_category': 'Pet Products',
-                'sub_category': 'Pet Care'
+                'url': 'https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:category:stationery-423144840',
+                'main_category': 'Stationery',
+                'sub_category': 'Stationery'
             }
         ]
         

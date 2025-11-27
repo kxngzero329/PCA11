@@ -30,9 +30,9 @@ def main():
     print("   - Concurrent requests: 1")
     print("   - Respecting robots.txt")
     print("   - Using Playwright for JavaScript rendering")
-    print("   - 7 main categories")
+    print("   - 6 main categories")
     print("   - 2 products per category")
-    print("   - Total expected: 14 products")
+    print("   - Total expected: 12 products")
     
     # Create data directory if it doesn't exist
     os.makedirs('data', exist_ok=True)
