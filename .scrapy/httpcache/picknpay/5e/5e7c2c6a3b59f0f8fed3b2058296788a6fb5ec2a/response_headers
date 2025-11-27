@@ -1,0 +1,14 @@
+Content-Type: text/html
+Date: Thu, 27 Nov 2025 07:27:10 GMT
+Server: nginx/1.27.5
+Server-Timing: dtSInfo;desc="1"
+Set-Cookie: route=e940f2f0ad3ae09d004a58eb722d3d92; Path=/
+dtCookie=v_4_srv_1_sn_A648233A76228E67E5B574B5C214F6FE_perc_100000_ol_0_mul_1_app-3A2ce7406a2949d129_0; Path=/; Domain=.pnp.co.za; secure
+Strict-Transport-Security: max-age=3600
+Via: 1.1 ae40a3479a3936e1b4f3fc8aeb176f36.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: wNx7VeW-IhYsRNbLxypKL7C8SDSd_s0OrDmkg8wmXS2V7h_NW7U-Lw==
+X-Amz-Cf-Pop: CPT51-P1
+X-Cache: Miss from cloudfront
+X-Oneagent-Js-Injection: true
+X-Powered-By: Express
+X-Ruxit-Js-Agent: true

@@ -30,6 +30,7 @@ def main():
     print("   - Concurrent requests: 1")
     print("   - Respecting robots.txt")
     print("   - Using Playwright for JavaScript rendering")
+    print("   - Using actual category URLs from sitemap")
     
     # Create data directory if it doesn't exist
     os.makedirs('data', exist_ok=True)
