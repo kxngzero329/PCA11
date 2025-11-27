@@ -1,0 +1,60 @@
+picknpay-scraper/
+├── requirements.txt
+├── settings.py
+├── scrapy.cfg
+├── main.py
+├── run_scraper.py
+├── 
+├── spiders/
+│   ├── __init__.py
+│   └── picknpay_spider.py
+├── middleware.py
+├── utils/
+│   ├── __init__.py
+│   └── time_checker.py
+└── data/
+    └── __init__.py
+
+
+    Terminal Commands
+
+# Create project directory
+mkdir picknpay-scraper && cd picknpay-scraper
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install scrapy scrapy-playwright playwright fastapi uvicorn requests pytz
+
+# Install Playwright browsers
+playwright install
+
+
+
+how to run 
+
+# Run the scraper directly
+python run_scraper.py
+
+# Start the FastAPI server
+python main.py
+
+# Or run with uvicorn directly
+uvicorn main:app --reload --host 0.0.0.0 --port 8000
+
+# Test the API
+curl http://localhost:8000/scrape/status
+
+# Start scraping via API
+curl -X POST http://localhost:8000/scrape/start
+
+
+
+Your Allowed Scraping Times
+Cape Town Time (SAST):
+
+Start: 06:00 (6:00 AM)
+
+End: 10:45 (10:45 AM)

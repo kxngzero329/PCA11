@@ -1,0 +1,18 @@
+# For all robots 
+User-agent: * 
+# Block access to specific groups of pages 
+Disallow: */cart 
+Disallow: */checkout 
+Disallow: */my-account 
+Disallow: */search/ 
+Disallow: */shopping-lists 
+Disallow: */lists 
+
+Request-rate: 1/10 
+# maximum rate is one page every 10 seconds 
+Crawl-delay: 10 
+# 10 seconds between page requests 
+Visit-time: 0400-0845 
+# only visit between 04:00 and 08:45 UTC
+
+Sitemap: https://www.pnp.co.za/sitemap.xml
