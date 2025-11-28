@@ -5,6 +5,7 @@ from datetime import datetime
 from scrapy_playwright.page import PageMethod
 from urllib.parse import urljoin
 import logging
+import re
 
 class JsonWriterPipeline:
     def open_spider(self, spider):
@@ -39,7 +40,8 @@ class PicknPaySpider(scrapy.Spider):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.utc_tz = pytz.utc
-        self.products_per_category = 2
+        self.target_products = 5  # Aim for 5
+        self.min_products = 2     # Minimum 2
     
     def within_crawl_window(self):
         """Check if current time is within allowed crawling window"""
@@ -58,14 +60,14 @@ class PicknPaySpider(scrapy.Spider):
             return
         
         self.logger.info("✅ Within crawling window, starting scrape...")
-        self.logger.info(f"🎯 Scraping {self.products_per_category} products per category")
+        self.logger.info(f"🎯 Aiming for {self.target_products} products per category (minimum {self.min_products})")
         
-        # FINAL 6 categories (removed Baby and Kids, added Stationery)
+        # Updated categories with latest URLs
         category_urls = [
             {
-                'url': 'https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:category:food-cupboard-423144840',
+                'url': 'https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:category:milk-dairy-and-eggs-423144840',
                 'main_category': 'Groceries',
-                'sub_category': 'Food Cupboard'
+                'sub_category': 'Milk Dairy and Eggs'
             },
             {
                 'url': 'https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:category:household-and-cleaning-423144840',
@@ -104,8 +106,8 @@ class PicknPaySpider(scrapy.Spider):
                 meta={
                     'playwright': True,
                     'playwright_page_methods': [
-                        PageMethod('wait_for_selector', 'div.product-grid-item', timeout=25000),
-                        PageMethod('wait_for_timeout', 3000),
+                        PageMethod('wait_for_selector', 'div.product-grid-item', timeout=40000),
+                        PageMethod('wait_for_timeout', 8000),  # Even longer wait
                     ],
                     'download_delay': 10.0,
                     'main_category': category_info['main_category'],
@@ -122,42 +124,85 @@ class PicknPaySpider(scrapy.Spider):
         self.logger.info(f"📁 Processing: {main_category} > {sub_category}")
         self.logger.info(f"🔗 URL: {response.url}")
         
-        # Extract product elements using the exact selector from your HTML
+        # Extract product elements - use the exact selector from your HTML
         products = response.css('div.product-grid-item')
+        
         self.logger.info(f"🎯 Found {len(products)} total products")
         
         if len(products) == 0:
-            self.logger.warning(f"❌ No products found in {main_category}")
+            self.logger.error(f"💥 No products found in {main_category}")
             return
         
-        # Limit to specified number of products per category
-        limited_products = products[:self.products_per_category]
-        self.logger.info(f"🔒 Limiting to first {len(limited_products)} products")
+        scraped_count = 0
+        all_valid_items = []
         
-        product_count = 0
-        for index, product in enumerate(limited_products):
-            item = self.extract_product_data(product, response, main_category, sub_category)
+        # First pass: Try to extract as many valid products as possible
+        for index, product in enumerate(products):
+            item = self.extract_product_data(product, response, main_category, sub_category, index)
             
-            if item and item.get('name') and item.get('price'):
-                product_count += 1
-                self.logger.info(f"✅ Product {index + 1}: {item['name']} - {item['price']}")
-                yield item
-            else:
-                self.logger.warning(f"⚠️ Skipping incomplete product {index + 1}")
+            if item and self.is_valid_product(item):
+                all_valid_items.append(item)
+                scraped_count += 1
+                self.logger.info(f"✅ Product {scraped_count}: {item['name']} - {item['price']}")
         
-        self.logger.info(f"📊 Successfully extracted {product_count} products from {main_category}")
+        # If we don't have enough valid products, try with more aggressive extraction
+        if len(all_valid_items) < self.min_products and len(products) > len(all_valid_items):
+            self.logger.info(f"🔄 Only got {len(all_valid_items)} products, trying aggressive extraction...")
+            for index, product in enumerate(products[len(all_valid_items):], len(all_valid_items)):
+                if len(all_valid_items) >= self.target_products:
+                    break
+                    
+                item = self.extract_product_data_aggressive(product, response, main_category, sub_category, index)
+                if item and self.is_valid_product(item):
+                    all_valid_items.append(item)
+                    scraped_count += 1
+                    self.logger.info(f"✅ Product {scraped_count}: {item['name']} - {item['price']}")
+        
+        # Yield all valid items (up to target limit)
+        for item in all_valid_items[:self.target_products]:
+            yield item
+        
+        final_count = min(len(all_valid_items), self.target_products)
+        self.logger.info(f"📊 Successfully extracted {final_count} products from {main_category}")
         self.logger.info(f"⏹️ Finished with {main_category}, moving to next category")
     
-    def extract_product_data(self, product, response, main_category, sub_category):
-        """Extract product data using the data attributes from your HTML examples"""
+    def extract_product_data(self, product, response, main_category, sub_category, index):
+        """Extract product data using reliable methods from your HTML examples"""
         
-        # Extract from data attributes (most reliable based on your HTML)
+        # METHOD 1: Data attributes (most reliable when available)
         name = product.attrib.get('data-cnstrc-item-name', '').strip()
         price_value = product.attrib.get('data-cnstrc-item-price', '').strip()
         product_id = product.attrib.get('data-cnstrc-item-id', '').strip()
         
-        # Format price with R prefix
-        price = f"R {price_value}" if price_value else ""
+        # METHOD 2: CSS selectors from your exact HTML structure
+        if not name:
+            # Exact selector from your HTML: span inside product name link
+            name = product.css('a.product-grid-item__info-container__name span::text').get()
+            if name:
+                name = name.strip()
+        
+        # METHOD 3: Price extraction from visible elements
+        if not price_value:
+            # Try multiple price selectors from your HTML examples
+            price_selectors = [
+                '.price::text',
+                '.cms-price-display .price::text',
+                '.plp-price .price::text',
+                '.product-grid-item__price-container .price::text'
+            ]
+            
+            for selector in price_selectors:
+                price_text = product.css(selector).get()
+                if price_text:
+                    price_text = price_text.strip()
+                    # Extract numbers from price text (e.g., "R24.99" -> "24.99")
+                    numbers = re.findall(r'\d+\.?\d*', price_text)
+                    if numbers:
+                        price_value = numbers[0]
+                        break
+        
+        # Format price
+        price = f"R {price_value}" if price_value and price_value != "0.00" else ""
         
         # Get product URL
         product_url = product.css('a.product-action::attr(href)').get()
@@ -175,10 +220,98 @@ class PicknPaySpider(scrapy.Spider):
         if original_price:
             original_price = original_price.strip()
         
+        # Only create item if we have essential data
+        if not name or not price_value:
+            return None
+        
         # Build the complete item
         item = {
             'name': name,
             'price': price,
+            'price_value': price_value,
+            'original_price': original_price,
+            'product_url': product_url,
+            'image_url': image_url,
+            'product_id': product_id,
+            'main_category': main_category,
+            'sub_category': sub_category,
+            'category_url': response.url,
+            'scraped_at': datetime.now(self.utc_tz).isoformat(),
+            'data_attributes': {
+                'item_id': product_id,
+                'item_name': product.attrib.get('data-cnstrc-item-name', ''),
+                'item_price': product.attrib.get('data-cnstrc-item-price', ''),
+                'strategy_id': product.attrib.get('data-cnstrc-strategy-id', ''),
+            }
+        }
+        
+        return self.clean_item(item)
+    
+    def extract_product_data_aggressive(self, product, response, main_category, sub_category, index):
+        """Aggressive extraction with more fallbacks"""
+        
+        # Try all possible name selectors
+        name_selectors = [
+            'a.product-grid-item__info-container__name span::text',
+            'a[aria-label]::attr(aria-label)',
+            '.product-name::text',
+            '.product-title::text',
+            'span::text'  # Last resort
+        ]
+        
+        name = None
+        for selector in name_selectors:
+            name = product.css(selector).get()
+            if name:
+                name = name.strip()
+                if name and len(name) > 2:  # Basic validation
+                    break
+                name = None
+        
+        # Try all possible price selectors
+        price_selectors = [
+            '.price::text',
+            '.cms-price-display .price::text',
+            '.plp-price .price::text',
+            '[class*="price"]::text',
+            'div::text'  # Last resort
+        ]
+        
+        price_value = None
+        for selector in price_selectors:
+            elements = product.css(selector)
+            for elem in elements:
+                price_text = elem.get()
+                if price_text:
+                    price_text = price_text.strip()
+                    if 'R' in price_text:
+                        numbers = re.findall(r'\d+\.?\d*', price_text)
+                        if numbers:
+                            price_value = numbers[0]
+                            break
+            if price_value:
+                break
+        
+        # If we still don't have name or price, skip
+        if not name or not price_value:
+            return None
+        
+        # Get other data
+        product_url = product.css('a::attr(href)').get()
+        if product_url:
+            product_url = response.urljoin(product_url)
+        
+        image_url = product.css('img::attr(src)').get()
+        product_id = product.attrib.get('data-cnstrc-item-id', f"item_{index}")
+        original_price = product.css('.old::text').get()
+        if original_price:
+            original_price = original_price.strip()
+        
+        # Build item
+        item = {
+            'name': name,
+            'price': f"R {price_value}",
+            'price_value': price_value,
             'original_price': original_price,
             'product_url': product_url,
             'image_url': image_url,
@@ -196,6 +329,28 @@ class PicknPaySpider(scrapy.Spider):
         }
         
         return self.clean_item(item)
+    
+    def is_valid_product(self, item):
+        """Validate that we have a real product"""
+        if not item.get('name') or not item.get('price_value'):
+            return False
+        
+        # Check if name is not a placeholder
+        name = item['name'].lower()
+        invalid_keywords = ['product', 'unknown', 'placeholder', 'item_']
+        for keyword in invalid_keywords:
+            if keyword in name:
+                return False
+        
+        # Check if price is realistic
+        try:
+            price = float(item['price_value'])
+            if price <= 0 or price > 10000:  # Reasonable price range
+                return False
+        except ValueError:
+            return False
+        
+        return True
     
     def clean_item(self, item):
         """Clean and validate the item data"""

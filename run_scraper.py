@@ -31,8 +31,10 @@ def main():
     print("   - Respecting robots.txt")
     print("   - Using Playwright for JavaScript rendering")
     print("   - 6 main categories")
-    print("   - 2 products per category")
-    print("   - Total expected: 12 products")
+    print("   - Target: 5 products per category")
+    print("   - Minimum: 2 products per category")
+    print("   - Total expected: 12-30 products")
+    print("   - Enhanced validation and fallbacks")
     
     # Create data directory if it doesn't exist
     os.makedirs('data', exist_ok=True)
