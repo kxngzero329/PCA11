@@ -40,8 +40,93 @@ class PicknPaySpider(scrapy.Spider):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.utc_tz = pytz.utc
-        self.target_products = 5  # Aim for 5
-        self.min_products = 2     # Minimum 2
+        
+        # List of REQUIRED products to look for
+        self.required_products = [
+            # Groceries
+            {
+                'name_keyword': 'Clover UHT Full Cream Long Life Milk 6 x 1L',
+                'category': 'Groceries',
+                'category_url': 'https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:category:milk-dairy-and-eggs-423144840',
+                'sub_category': 'Milk Dairy and Eggs'
+            },
+            {
+                'name_keyword': 'PnP Large Eggs 30 Pack',
+                'category': 'Groceries',
+                'category_url': 'https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:category:milk-dairy-and-eggs-423144840',
+                'sub_category': 'Milk Dairy and Eggs'
+            },
+            
+            # Health & Wellness
+            {
+                'name_keyword': 'Grand-pa Headache Powder Regular Stick Pack 38 Pack',
+                'category': 'Health and Wellness',
+                'category_url': 'https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:category:health-and-wellness-423144840',
+                'sub_category': 'Health and Wellness'
+            },
+            {
+                'name_keyword': 'Calpol Strawberry Flavoured Paediatric Syrup 100ml',
+                'category': 'Health and Wellness',
+                'category_url': 'https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:category:health-and-wellness-423144840',
+                'sub_category': 'Health and Wellness'
+            },
+            
+            # Household & Cleaning
+            {
+                'name_keyword': 'Sunlight Original Dishwashing Liquid 750ml',
+                'category': 'Cleaning and Household',
+                'category_url': 'https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:category:household-and-cleaning-423144840',
+                'sub_category': 'Household and Cleaning'
+            },
+            {
+                'name_keyword': 'Surf Stain Removal Hand Washing Powder Detergent 2kg',
+                'category': 'Cleaning and Household',
+                'category_url': 'https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:category:household-and-cleaning-423144840',
+                'sub_category': 'Household and Cleaning'
+            },
+            
+            # Electronics
+            {
+                'name_keyword': 'Energizer Max AAA 12 Pack',
+                'category': 'Electronics',
+                'category_url': 'https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:category:electronics-and-office-423144840',
+                'sub_category': 'Electronics and Office'
+            },
+            {
+                'name_keyword': 'Sandisk Cruizer Blade 32GB',
+                'category': 'Electronics',
+                'category_url': 'https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:category:electronics-and-office-423144840',
+                'sub_category': 'Electronics and Office'
+            },
+            
+            # Stationery
+            {
+                'name_keyword': 'Staedtler Colour Pencil Woodfree 24 Pack',
+                'category': 'Stationery',
+                'category_url': 'https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:category:stationery-423144840',
+                'sub_category': 'Stationery'
+            },
+            {
+                'name_keyword': 'PnP A4 Counter Book 96 Pages',
+                'category': 'Stationery',
+                'category_url': 'https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:category:stationery-423144840',
+                'sub_category': 'Stationery'
+            },
+            
+            # Personal Care
+            {
+                'name_keyword': 'Colgate Triple Action Multibenefit Toothpaste 100ml',
+                'category': 'Personal Care',
+                'category_url': 'https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:category:personal-care-and-hygiene-423144840',
+                'sub_category': 'Personal Care and Hygiene'
+            },
+            {
+                'name_keyword': 'Dettol Antiseptic Liquid 750ml',
+                'category': 'Personal Care',
+                'category_url': 'https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:category:personal-care-and-hygiene-423144840',
+                'sub_category': 'Personal Care and Hygiene'
+            }
+        ]
     
     def within_crawl_window(self):
         """Check if current time is within allowed crawling window"""
@@ -60,154 +145,146 @@ class PicknPaySpider(scrapy.Spider):
             return
         
         self.logger.info("✅ Within crawling window, starting scrape...")
-        self.logger.info(f"🎯 Aiming for {self.target_products} products per category (minimum {self.min_products})")
+        self.logger.info(f"🎯 Looking for {len(self.required_products)} specific products")
         
-        # Updated categories with latest URLs
-        category_urls = [
-            {
-                'url': 'https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:category:milk-dairy-and-eggs-423144840',
-                'main_category': 'Groceries',
-                'sub_category': 'Milk Dairy and Eggs'
-            },
-            {
-                'url': 'https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:category:household-and-cleaning-423144840',
-                'main_category': 'Cleaning and Household', 
-                'sub_category': 'Household and Cleaning'
-            },
-            {
-                'url': 'https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:category:personal-care-and-hygiene-423144840',
-                'main_category': 'Personal Care',
-                'sub_category': 'Personal Care and Hygiene'
-            },
-            {
-                'url': 'https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:category:health-and-wellness-423144840',
-                'main_category': 'Health and Wellness',
-                'sub_category': 'Health and Wellness'
-            },
-            {
-                'url': 'https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:category:electronics-and-office-423144840',
-                'main_category': 'Electronics',
-                'sub_category': 'Electronics and Office'
-            },
-            {
-                'url': 'https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:category:stationery-423144840',
-                'main_category': 'Stationery',
-                'sub_category': 'Stationery'
-            }
-        ]
+        # Group products by category to minimize requests
+        categories = {}
+        for product in self.required_products:
+            cat_url = product['category_url']
+            if cat_url not in categories:
+                categories[cat_url] = {
+                    'main_category': product['category'],
+                    'sub_category': product['sub_category'],
+                    'products': []
+                }
+            categories[cat_url]['products'].append(product['name_keyword'])
         
-        self.logger.info(f"📂 Processing {len(category_urls)} main categories")
+        self.logger.info(f"📂 Processing {len(categories)} categories")
         
-        for category_info in category_urls:
-            self.logger.info(f"📦 Queueing: {category_info['main_category']}")
+        for cat_url, cat_info in categories.items():
+            self.logger.info(f"📦 Queueing: {cat_info['main_category']}")
+            self.logger.info(f"   Looking for: {', '.join(cat_info['products'][:3])}{'...' if len(cat_info['products']) > 3 else ''}")
+            
             yield scrapy.Request(
-                url=category_info['url'],
+                url=cat_url,
                 callback=self.parse_category,
                 meta={
                     'playwright': True,
                     'playwright_page_methods': [
                         PageMethod('wait_for_selector', 'div.product-grid-item', timeout=40000),
-                        PageMethod('wait_for_timeout', 8000),  # Even longer wait
+                        PageMethod('wait_for_timeout', 8000),
                     ],
                     'download_delay': 10.0,
-                    'main_category': category_info['main_category'],
-                    'sub_category': category_info['sub_category'],
+                    'main_category': cat_info['main_category'],
+                    'sub_category': cat_info['sub_category'],
+                    'target_products': cat_info['products']
                 },
                 errback=self.errback,
             )
     
     def parse_category(self, response):
-        """Parse category page and extract products"""
+        """Parse category page and look for specific products"""
         main_category = response.meta.get('main_category', 'Unknown')
         sub_category = response.meta.get('sub_category', 'Unknown')
+        target_products = response.meta.get('target_products', [])
         
         self.logger.info(f"📁 Processing: {main_category} > {sub_category}")
-        self.logger.info(f"🔗 URL: {response.url}")
+        self.logger.info(f"🎯 Looking for: {target_products}")
         
-        # Extract product elements - use the exact selector from your HTML
+        # Extract product elements
         products = response.css('div.product-grid-item')
         
-        self.logger.info(f"🎯 Found {len(products)} total products")
+        if not products:
+            self.logger.warning("🔍 No products found with main selector, trying alternatives...")
+            # Try alternative selectors
+            products = response.css('[data-cnstrc-item-id]')
         
-        if len(products) == 0:
-            self.logger.error(f"💥 No products found in {main_category}")
-            return
+        self.logger.info(f"🔍 Found {len(products)} product elements")
         
-        scraped_count = 0
-        all_valid_items = []
+        found_products = []
         
-        # First pass: Try to extract as many valid products as possible
-        for index, product in enumerate(products):
-            item = self.extract_product_data(product, response, main_category, sub_category, index)
+        # Look for each target product
+        for target_name in target_products:
+            target_lower = target_name.lower()
+            found = False
             
-            if item and self.is_valid_product(item):
-                all_valid_items.append(item)
-                scraped_count += 1
-                self.logger.info(f"✅ Product {scraped_count}: {item['name']} - {item['price']}")
+            for product in products:
+                # Try to get product name from data attribute
+                name = product.attrib.get('data-cnstrc-item-name', '').strip()
+                if not name:
+                    # Try from CSS selector
+                    name = product.css('a.product-grid-item__info-container__name span::text').get()
+                    if name:
+                        name = name.strip()
+                
+                if name and target_lower in name.lower():
+                    # Found the product! Extract its data
+                    item = self.extract_product_data(product, response, main_category, sub_category, name)
+                    if item:
+                        found_products.append(item)
+                        self.logger.info(f"✅ FOUND: {name} - {item['price']}")
+                        found = True
+                        break
+            
+            if not found:
+                self.logger.warning(f"⚠️ Not found: {target_name}")
         
-        # If we don't have enough valid products, try with more aggressive extraction
-        if len(all_valid_items) < self.min_products and len(products) > len(all_valid_items):
-            self.logger.info(f"🔄 Only got {len(all_valid_items)} products, trying aggressive extraction...")
-            for index, product in enumerate(products[len(all_valid_items):], len(all_valid_items)):
-                if len(all_valid_items) >= self.target_products:
+        # If we didn't find all products, collect some other products from the category
+        if len(found_products) < len(target_products):
+            self.logger.info(f"🔍 Only found {len(found_products)}/{len(target_products)} required products")
+            self.logger.info("🔍 Collecting additional products from category...")
+            
+            additional_count = 0
+            for product in products:
+                # Skip if we already have enough
+                if len(found_products) >= len(target_products) + 3:  # Get up to 3 extras
                     break
-                    
-                item = self.extract_product_data_aggressive(product, response, main_category, sub_category, index)
-                if item and self.is_valid_product(item):
-                    all_valid_items.append(item)
-                    scraped_count += 1
-                    self.logger.info(f"✅ Product {scraped_count}: {item['name']} - {item['price']}")
+                
+                # Extract product name
+                name = product.attrib.get('data-cnstrc-item-name', '').strip()
+                if not name:
+                    name = product.css('a.product-grid-item__info-container__name span::text').get()
+                    if name:
+                        name = name.strip()
+                
+                # Check if this is not already in our found products
+                if name and not any(name.lower() == item['name'].lower() for item in found_products):
+                    item = self.extract_product_data(product, response, main_category, sub_category, name)
+                    if item:
+                        found_products.append(item)
+                        additional_count += 1
+                        self.logger.info(f"➕ Additional product: {name} - {item['price']}")
         
-        # Yield all valid items (up to target limit)
-        for item in all_valid_items[:self.target_products]:
+        # Yield all found products
+        for item in found_products:
             yield item
         
-        final_count = min(len(all_valid_items), self.target_products)
-        self.logger.info(f"📊 Successfully extracted {final_count} products from {main_category}")
-        self.logger.info(f"⏹️ Finished with {main_category}, moving to next category")
+        self.logger.info(f"📊 Extracted {len(found_products)} products from {main_category}")
     
-    def extract_product_data(self, product, response, main_category, sub_category, index):
-        """Extract product data using reliable methods from your HTML examples"""
+    def extract_product_data(self, product, response, main_category, sub_category, product_name):
+        """Extract product data from product element"""
         
-        # METHOD 1: Data attributes (most reliable when available)
-        name = product.attrib.get('data-cnstrc-item-name', '').strip()
+        # Get price from data attribute
         price_value = product.attrib.get('data-cnstrc-item-price', '').strip()
-        product_id = product.attrib.get('data-cnstrc-item-id', '').strip()
         
-        # METHOD 2: CSS selectors from your exact HTML structure
-        if not name:
-            # Exact selector from your HTML: span inside product name link
-            name = product.css('a.product-grid-item__info-container__name span::text').get()
-            if name:
-                name = name.strip()
-        
-        # METHOD 3: Price extraction from visible elements
+        # If not in data attribute, try to extract from visible price
         if not price_value:
-            # Try multiple price selectors from your HTML examples
-            price_selectors = [
-                '.price::text',
-                '.cms-price-display .price::text',
-                '.plp-price .price::text',
-                '.product-grid-item__price-container .price::text'
-            ]
-            
-            for selector in price_selectors:
-                price_text = product.css(selector).get()
-                if price_text:
-                    price_text = price_text.strip()
-                    # Extract numbers from price text (e.g., "R24.99" -> "24.99")
-                    numbers = re.findall(r'\d+\.?\d*', price_text)
-                    if numbers:
-                        price_value = numbers[0]
-                        break
+            price_text = product.css('.price::text').get()
+            if price_text:
+                price_text = price_text.strip()
+                numbers = re.findall(r'\d+\.?\d*', price_text)
+                if numbers:
+                    price_value = numbers[0]
         
-        # Format price
-        price = f"R {price_value}" if price_value and price_value != "0.00" else ""
+        # Get product ID
+        product_id = product.attrib.get('data-cnstrc-item-id', '').strip()
         
         # Get product URL
         product_url = product.css('a.product-action::attr(href)').get()
         if not product_url:
             product_url = product.css('a.product-grid-item__info-container__name::attr(href)').get()
+        if not product_url:
+            product_url = product.css('a[href*="/p/"]::attr(href)').get()
         
         if product_url:
             product_url = response.urljoin(product_url)
@@ -220,13 +297,12 @@ class PicknPaySpider(scrapy.Spider):
         if original_price:
             original_price = original_price.strip()
         
-        # Only create item if we have essential data
-        if not name or not price_value:
-            return None
+        # Format price
+        price = f"R {price_value}" if price_value and price_value != "0.00" else ""
         
         # Build the complete item
         item = {
-            'name': name,
+            'name': product_name,
             'price': price,
             'price_value': price_value,
             'original_price': original_price,
@@ -246,111 +322,6 @@ class PicknPaySpider(scrapy.Spider):
         }
         
         return self.clean_item(item)
-    
-    def extract_product_data_aggressive(self, product, response, main_category, sub_category, index):
-        """Aggressive extraction with more fallbacks"""
-        
-        # Try all possible name selectors
-        name_selectors = [
-            'a.product-grid-item__info-container__name span::text',
-            'a[aria-label]::attr(aria-label)',
-            '.product-name::text',
-            '.product-title::text',
-            'span::text'  # Last resort
-        ]
-        
-        name = None
-        for selector in name_selectors:
-            name = product.css(selector).get()
-            if name:
-                name = name.strip()
-                if name and len(name) > 2:  # Basic validation
-                    break
-                name = None
-        
-        # Try all possible price selectors
-        price_selectors = [
-            '.price::text',
-            '.cms-price-display .price::text',
-            '.plp-price .price::text',
-            '[class*="price"]::text',
-            'div::text'  # Last resort
-        ]
-        
-        price_value = None
-        for selector in price_selectors:
-            elements = product.css(selector)
-            for elem in elements:
-                price_text = elem.get()
-                if price_text:
-                    price_text = price_text.strip()
-                    if 'R' in price_text:
-                        numbers = re.findall(r'\d+\.?\d*', price_text)
-                        if numbers:
-                            price_value = numbers[0]
-                            break
-            if price_value:
-                break
-        
-        # If we still don't have name or price, skip
-        if not name or not price_value:
-            return None
-        
-        # Get other data
-        product_url = product.css('a::attr(href)').get()
-        if product_url:
-            product_url = response.urljoin(product_url)
-        
-        image_url = product.css('img::attr(src)').get()
-        product_id = product.attrib.get('data-cnstrc-item-id', f"item_{index}")
-        original_price = product.css('.old::text').get()
-        if original_price:
-            original_price = original_price.strip()
-        
-        # Build item
-        item = {
-            'name': name,
-            'price': f"R {price_value}",
-            'price_value': price_value,
-            'original_price': original_price,
-            'product_url': product_url,
-            'image_url': image_url,
-            'product_id': product_id,
-            'main_category': main_category,
-            'sub_category': sub_category,
-            'category_url': response.url,
-            'scraped_at': datetime.now(self.utc_tz).isoformat(),
-            'data_attributes': {
-                'item_id': product_id,
-                'item_name': name,
-                'item_price': price_value,
-                'strategy_id': product.attrib.get('data-cnstrc-strategy-id', ''),
-            }
-        }
-        
-        return self.clean_item(item)
-    
-    def is_valid_product(self, item):
-        """Validate that we have a real product"""
-        if not item.get('name') or not item.get('price_value'):
-            return False
-        
-        # Check if name is not a placeholder
-        name = item['name'].lower()
-        invalid_keywords = ['product', 'unknown', 'placeholder', 'item_']
-        for keyword in invalid_keywords:
-            if keyword in name:
-                return False
-        
-        # Check if price is realistic
-        try:
-            price = float(item['price_value'])
-            if price <= 0 or price > 10000:  # Reasonable price range
-                return False
-        except ValueError:
-            return False
-        
-        return True
     
     def clean_item(self, item):
         """Clean and validate the item data"""
