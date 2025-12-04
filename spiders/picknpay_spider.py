@@ -289,7 +289,7 @@ class PicknPaySpider(scrapy.Spider):
         if product_url:
             product_url = response.urljoin(product_url)
         
-        # Get image URL
+        # This Get image URL
         image_url = product.css('img::attr(src)').get()
         
         # Get original price if on sale
